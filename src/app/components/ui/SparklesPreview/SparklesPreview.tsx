@@ -38,7 +38,7 @@ export const SparklesPreview = ({ isNavbarHovered }) => {
               <h1 className="md:text-6xl text-3xl lg:text-7xl font-bold mt-8 md:mt-0 lg:ml-12 text-white text-center md:text-left">
                 MILAN GHIMIRE <br />
                 <p className="md:text-1xl text-1xl lg:text-[42px] font-thin">
-                  I'm{" "}
+                  I&apos;m {''}
                   <span className="underlinetext type-position font-thin text-green-400"></span>
                 </p>
               </h1>
