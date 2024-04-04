@@ -1,0 +1,28 @@
+.animated-text {
+    animation: fadeIn 1.5s ease-in-out infinite alternate;
+  }
+  
+  .animated-letter {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInLetter 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInLetter {
+    to {
+      opacity: 1;
+    }
+  }
+  .underlinetext {
+    text-decoration: underline;
+    text-underline-offset: 10px; /* Adjust the value to move the underline down */
+}

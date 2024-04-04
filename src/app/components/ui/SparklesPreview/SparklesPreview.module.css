@@ -1,0 +1,8 @@
+.sparklesContainer {
+    
+  }
+  
+  .sparklesContainerBlur {
+    filter: blur(5px);
+  }
+  
