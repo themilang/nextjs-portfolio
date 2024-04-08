@@ -17,7 +17,7 @@ export const Newsletter = () => {
 
 
     try {
-      const res = await fetch('http://localhost:8085/api/user/subscription', {
+      const res = await fetch('https://contactform-backend-oujb.onrender.com/api/user/subscription', {
           method: 'POST', // Assuming you're making a POST request
           body: JSON.stringify({
               email: email, // Replace with actual data
@@ -66,7 +66,7 @@ export const Newsletter = () => {
           <div className="gap-3 md:flex ">
             <input
               type="email"
-              className="peer border block w-full rounded-md border-gray-300 bg-white py-3 pl-7 pr-12 text-white focus:border-white focus:ring-white peer-invalid:text-pink-600 dark:border-zinc-500 dark:bg-zinc-900 dark:focus:ring-white sm:text-sm"
+              className="peer border block w-full rounded-md border-gray-300 bg-white py-3 pl-7 pr-12 text-black focus:border-white focus:ring-white peer-invalid:text-pink-600 dark:border-zinc-500 dark:bg-zinc-900 dark:focus:ring-white sm:text-sm"
               placeholder="Your Email"
               autoComplete="email"
               required
