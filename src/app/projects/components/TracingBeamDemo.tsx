@@ -115,7 +115,7 @@ const dummyContent = [
       <>
         <p>
         MERN E-Learning Web-Application is a advance online learning platform developed using the MERN stack. It provides a rich learning experience, offering a wide range of courses on various subjects. 
-        With its intuitive user interface and interactive learning materials, students can easily navigate through the courses and engage with the content. 
+        With it&apos;s intuitive user interface and interactive learning materials, students can easily navigate through the courses and engage with the content. 
         The platform also includes features such as progress tracking and assignments to enhance the learning experience. Role base Login  , Admin Pannel , Dashboard and many more 
         </p>
        
@@ -148,7 +148,7 @@ Authentication functionality with  JSON Web Token (JWT) </p>
     description: (
       <>
         <p>
-        The IoT Web Application revolutionizes device control by bridging the digital and physical realms. Powered by Raspberry Pi and ESP32, users can effortlessly manage cameras, projectors, lights, and fans remotely. As a developer, I've ensured intuitive interaction and robust security with features like role-based authentication and JWT.        </p>
+        The IoT Web Application revolutionizes device control by bridging the digital and physical realms. Powered by Raspberry Pi and ESP32, users can effortlessly manage cameras, projectors, lights, and fans remotely. As a developer, I&apos;ve ensured intuitive interaction and robust security with features like role-based authentication and JWT.        </p>
       </>
     ),
     badge: "23-October, 2023",
@@ -189,7 +189,7 @@ Authentication functionality with  JSON Web Token (JWT) </p>
     description: (
       <>
         <p>
-        In this case study, I'll explore the process of implementing a real business landing page for the Motipur Interlock Block Factory. The project involved leveraging various technologies and design principles to create an engaging and informative online platform. Through careful planning and execution, I aimed to showcase the factory's products and services effectively. By utilizing captivating visuals, concise content, and user-friendly navigation, I strived to enhance the user experience and drive meaningful engagement.
+        In this case study, I&apos;ll explore the process of implementing a real business landing page for the Motipur Interlock Block Factory. The project involved leveraging various technologies and design principles to create an engaging and informative online platform. Through careful planning and execution, I aimed to showcase the factory&apos;s products and services effectively. By utilizing captivating visuals, concise content, and user-friendly navigation, I strived to enhance the user experience and drive meaningful engagement.
         Technology : MERN , Tailwind css , Nodemailer etc
         </p>
       </>
