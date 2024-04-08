@@ -1,5 +1,5 @@
-"use client";
-import React, { useRef } from "react";
+
+import React, { useRef, useEffect, useState } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 
 export const ContainerScroll = ({
@@ -18,16 +18,19 @@ export const ContainerScroll = ({
   const { scrollYProgress } = useScroll({
     target: containerRef,
   });
-  const [isMobile, setIsMobile] = React.useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768);
     };
     checkMobile();
-    window.addEventListener("resize", checkMobile);
+    const handleResize = () => {
+      checkMobile();
+    };
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener("resize", checkMobile);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 

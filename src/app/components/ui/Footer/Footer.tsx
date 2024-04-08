@@ -1,3 +1,4 @@
+
 export const Footer = () => {
     return (
       <div className="lg:mt-96 mt-[50rem] bg-gray-900">

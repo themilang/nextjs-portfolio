@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
     quote: "Testimonial quote 2",
     name: "Info Developers",
     title: "25 March, 2024",
-    imageBackground: "https://media.licdn.com/dms/image/D4D10AQHhOweQWpiJqg/image-shrink_800/0/1710842587606?e=1713186000&v=beta&t=iER1HucwjJuDOIkHWP32QueXkm-A_1Oa0rVPgTOqQfI", // Example of external image URL
+    imageBackground: "https://example.com/image2.jpg", // Example of external image URL
   },
   {
     quote: "Testimonial quote 3",
