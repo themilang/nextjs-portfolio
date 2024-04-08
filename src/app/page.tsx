@@ -77,7 +77,7 @@ export default function Home() {
           Contact Me <br />
         </h1>
         <p className="max-w-sm mb-4 md:text-sm text-sm text-gray-500 mt-8 dark:text-gray-500">
-          Feel free to reach out to me! ask a question, or just say hello, I'm always eager to connect.
+          Feel free to reach out to me! ask a question, or just say hello, I&apos;m always eager to connect.
         </p>
       </div>
 
