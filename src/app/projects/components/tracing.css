@@ -1,0 +1,15 @@
+@keyframes flyingIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .flying-in {
+    animation: flyingIn 2s ease forwards;
+  }
+  

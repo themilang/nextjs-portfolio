@@ -21,7 +21,6 @@ export const HeroParallax = ({
 }) => {
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
-  const thirdRow = products.slice(10, 15);
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -35,7 +34,7 @@ export const HeroParallax = ({
     springConfig
   );
   const translateXReverse = useSpring(
-    useTransform(scrollYProgress, [0, 1], [0, -1000]),
+    useTransform(scrollYProgress, [0, 1], [0, -500]),
     springConfig
   );
   const rotateX = useSpring(
@@ -51,13 +50,17 @@ export const HeroParallax = ({
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
+    useTransform(scrollYProgress, [0, 0.2], [-600, 200]),
     springConfig
   );
   return (
+    
+    <>
+    
     <div
+    
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className=" mb-12 py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -87,22 +90,19 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
-          {thirdRow.map((product) => (
-            <ProductCard
-              product={product}
-              translate={translateX}
-              key={product.title}
-            />
-          ))}
-        </motion.div>
+       
       </motion.div>
     </div>
+    
+    </>
   );
 };
 
 export const Header = () => {
   return (
+
+    <>
+    
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
        Projects & Case Study<br /> 
@@ -111,6 +111,11 @@ export const Header = () => {
       a compilation of my work as a Fullstack Developer and Software Engineering student. With a passion for crafting innovative solutions, I have successfully brought various projects to life, showcasing proficiency in a wide range of technologies and a commitment to excellence.        
       </p>
     </div>
+   
+    
+    
+    </>
+    
   );
 };
 
@@ -126,6 +131,7 @@ export const ProductCard = ({
   translate: MotionValue<number>;
 }) => {
   return (
+    <> 
     <motion.div
       style={{
         x: translate,
@@ -134,7 +140,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-96 w-[30rem] relative flex-shrink-0"
+      className="group/product h-72 w-[30rem] relative flex-shrink-0"
     >
       <Link
         href={product.link}
@@ -152,6 +158,12 @@ export const ProductCard = ({
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}
       </h2>
+
+
+      
     </motion.div>
+    
+    </>
+    
   );
 };

@@ -23,7 +23,7 @@ function Navbar({ className }: { className?: string }) {
       >
         <Menu setActive={setActive}>
          
-        <div className=" xs:sr-only">
+        <div className="  xs:sr-only">
          <MenuItem setActive={setActive} active={active} item="MG">
             
           </MenuItem>
@@ -69,7 +69,7 @@ function Navbar({ className }: { className?: string }) {
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Certificates">
-            <div className="flex flex-col space-y-4 text-sm">
+            <div className="flex  flex-col space-y-4 text-sm">
               <HoveredLink href="/hobby">Hobby</HoveredLink>
               <HoveredLink href="/individual">Individual</HoveredLink>
               <HoveredLink href="/team">Team</HoveredLink>

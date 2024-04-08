@@ -1,0 +1,6 @@
+  @media (min-width: 768px) { /* Adjust as per your design */
+    .flex-horizontal {
+      display: flex;
+      flex-direction: row;
+    }
+  }

@@ -1,0 +1,4 @@
+/* Add this CSS to your stylesheet */
+.relative:hover img {
+    filter: blur(3px);
+  }
