@@ -65,7 +65,7 @@ export const SparklesPreview = () => {
                     <div className="flex-row">
                       <CardItem translateZ="100" className="w-full mt-4">
                         <Image
-                          src="https://www.milanghimire.info.np/assets/profile-pic.png"
+                          src="https://scontent.fbwa9-1.fna.fbcdn.net/v/t39.30808-6/316427424_1818266161855008_4993216797239221165_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WvyFcSTfNJgAb4s0NJ_&_nc_ht=scontent.fbwa9-1.fna&oh=00_AfBwsIrwtt2qn1rGofcYDIlYJZ6QBInyI5vwOX0ER3W08w&oe=661AE0FE"
                           height="1000"
                           width="1000"
                           className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -80,7 +80,7 @@ export const SparklesPreview = () => {
             </div>
           </div>
           <div className="mt-3 items-center sm:m-auto -ml-12 ">
-          <Scroll/>
+          {/* <Scroll/> */}
             </div>
 
         </div>

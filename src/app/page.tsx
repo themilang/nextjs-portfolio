@@ -33,7 +33,7 @@ export default function Home() {
       >
         <Navui/>
       </div>
-      {/* <SparklesPreview /> */}
+      <SparklesPreview />
 
       <div className="mb-12 -mt-12 ">
         <AboutSection />
