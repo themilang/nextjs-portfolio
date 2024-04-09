@@ -26,7 +26,9 @@ export default function Home() {
 
   return (
     <NextUIProvider>
-      <div
+     
+     <div className="sm:ml-16 sm:mr-16">
+     <div
         
         style={{ cursor: "pointer"  }}
         className=""
@@ -98,6 +100,8 @@ export default function Home() {
       <div id="social" className="mt-[20rem] items-center">
         <SocialLinks />
       </div>
+     </div>
+     
       <ToastContainer />
     </NextUIProvider>
   );
