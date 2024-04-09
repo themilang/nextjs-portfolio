@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Er. Milan Ghimire | FullStack Developer",
+  title: "Milan Ghimire | FullStack Developer",
   description: "www.milanghimire.info.np",
 };
 
@@ -16,7 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
       <body className={inter.className}>{children}</body>
     </html>
   );
