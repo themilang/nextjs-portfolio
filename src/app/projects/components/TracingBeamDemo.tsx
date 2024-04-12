@@ -145,7 +145,7 @@ Authentication functionality with  JSON Web Token (JWT) </p>
     {
       title: "Streaming Services in FireBase with Stripe payment System ",
       seemorelink:"Streaming-services",
-      viewLiveDemo:'https://streaming-service-like-netflix-with-payment-intigration.vercel.app/',
+      viewLiveDemo:'https://ottplatform-55a7e.web.app/',
     
       description: (
         <>
