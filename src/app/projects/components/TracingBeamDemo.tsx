@@ -13,6 +13,7 @@ import './tracing.css'
 import Link from 'next/link';
 import '../components/index.css';
 import { title } from 'process';
+import Netflix from '../../../../public/netflix.png'
 
 export function TracingBeamDemo() {
   const [fadeIn, setFadeIn] = useState(true); // Initially set to true
@@ -53,11 +54,12 @@ export function TracingBeamDemo() {
       className="rounded-lg object-cover cursor-pointer transition duration-300 group-hover:blur-sm"
     />
     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-      <button className=" flex  gap-2 items-center bg-gray-700 text-white px-6 py-3 rounded-lg mr-4">View Live Demo <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+    <Link href={''+item.viewLiveDemo}>
+     <button className=" flex  gap-2 items-center bg-gray-700 text-white px-6 py-3 rounded-lg mr-4">View Live Demo <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
   <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
 </svg>
-</button>
+</button></Link>
       <button  className="bg-gray-700 flex gap-2 text-white items-center px-6 py-3 rounded-lg"><a href="https://www.buymeacoffee.com/milanghimire">Buy Me a Coffee</a> <svg className="w-6 h-6 " height="71px" width="71px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.998 511.998" xmlSpace="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style={{fill:"#FFFFFF;"}} d="M383.999,395.635c0,0-44.73,0-46.441,0c-0.035,0-0.07,0-0.105,0c-6.435,0-11.636,5.213-11.636,11.636 v23.273c0,19.247-15.663,34.909-34.909,34.909c-6.435,0-11.636,5.213-11.636,11.636v11.636H116.363v-11.636 c0-6.423-5.201-11.636-11.636-11.636c-19.247,0-34.909-15.663-34.909-34.909V162.907h256v197.818 c0,6.423,5.201,11.636,11.636,11.636h34.909c28.719,0,46.545-26.752,46.545-69.818s-17.827-69.818-46.545-69.818H349.09v-23.273 h34.909c36.422,0,58.182,47.325,58.182,93.091S420.421,395.635,383.999,395.635z"></path> <g> <path style={{fill:"#BCBEC0;"}} d="M203.624,116.362c-2.618,0-5.236-0.873-7.412-2.676c-10.228-8.471-15.849-19.921-15.849-32.233 s5.62-23.761,15.849-32.233c4.783-3.968,7.424-9.053,7.424-14.313s-2.641-10.345-7.424-14.313 c-4.957-4.108-5.632-11.439-1.548-16.384c4.119-4.934,11.427-5.632,16.384-1.536c10.24,8.46,15.86,19.91,15.86,32.233 s-5.62,23.761-15.849,32.233c-4.783,3.968-7.424,9.053-7.424,14.313c0,5.26,2.641,10.345,7.424,14.313 c4.957,4.108,5.632,11.439,1.548,16.384C210.292,114.919,206.975,116.362,203.624,116.362z"></path> <path style={{fill:"#BCBEC0;"}} d="M267.624,116.362c-2.618,0-5.236-0.873-7.412-2.676c-10.228-8.471-15.849-19.921-15.849-32.233 s5.62-23.761,15.849-32.233c4.783-3.968,7.424-9.053,7.424-14.313s-2.641-10.345-7.424-14.313 c-4.957-4.108-5.632-11.439-1.548-16.384c4.119-4.934,11.439-5.632,16.384-1.536c10.24,8.46,15.86,19.91,15.86,32.233 s-5.62,23.761-15.849,32.233c-4.783,3.968-7.424,9.053-7.424,14.313c0,5.26,2.641,10.345,7.424,14.313 c4.957,4.108,5.632,11.439,1.548,16.384C274.292,114.919,270.975,116.362,267.624,116.362z"></path> <path style={{fill:"#BCBEC0;"}} d="M139.624,116.362c-2.618,0-5.236-0.873-7.412-2.676c-10.228-8.471-15.849-19.921-15.849-32.233 s5.62-23.761,15.849-32.233c4.783-3.968,7.424-9.053,7.424-14.313s-2.641-10.345-7.424-14.313 c-4.945-4.108-5.632-11.439-1.548-16.384c4.119-4.934,11.45-5.644,16.396-1.536c10.228,8.46,15.849,19.91,15.849,32.233 s-5.62,23.761-15.849,32.233c-4.783,3.968-7.424,9.053-7.424,14.313c0,5.26,2.641,10.345,7.424,14.313 c4.957,4.108,5.632,11.439,1.548,16.384C146.292,114.919,142.975,116.362,139.624,116.362z"></path> </g> <path style={{fill:"#00384E;" }}d="M383.999,186.18H349.09v-34.909c0-6.423-5.201-11.636-11.636-11.636H58.181 c-6.435,0-11.636,5.213-11.636,11.636v279.273c0,28.102,20.026,51.607,46.545,57.007v12.812c0,6.423,5.201,11.636,11.636,11.636 h186.182c6.435,0,11.636-5.213,11.636-11.636V487.55c26.519-5.399,46.545-28.916,46.545-57.007v-11.846 c8.32,0.209,19.596,0.209,34.909,0.209c52.911,0,81.455-59.951,81.455-116.364S436.91,186.18,383.999,186.18z M372.363,255.998 c22.144,0,23.273,38.772,23.273,46.545c0,7.773-1.129,46.545-23.273,46.545H349.09v-93.091H372.363z M383.999,395.635 c0,0-44.73,0-46.441,0c-0.035,0-0.07,0-0.105,0c-6.435,0-11.636,5.213-11.636,11.636v23.273c0,19.247-15.663,34.909-34.909,34.909 c-6.435,0-11.636,5.213-11.636,11.636v11.636H116.363v-11.636c0-6.423-5.201-11.636-11.636-11.636 c-19.247,0-34.909-15.663-34.909-34.909V162.907h256v197.818c0,6.423,5.201,11.636,11.636,11.636h34.909 c28.719,0,46.545-26.752,46.545-69.818s-17.827-69.818-46.545-69.818H349.09v-23.273h34.909c36.422,0,58.182,47.325,58.182,93.091 S420.421,395.635,383.999,395.635z"></path> <path style={{fill:"#FAA85F;"}} d="M81.454,174.544v244.364c0,19.281,15.628,34.909,34.909,34.909h11.636v23.273h139.636v-23.273h11.636 c19.281,0,34.909-15.628,34.909-34.909V174.544H81.454z"></path> </g></svg></button>
     </div>
   </div>
@@ -140,6 +142,21 @@ Authentication functionality with  JSON Web Token (JWT) </p>
     badge: "16-january,2024",
     image:
     {AuthBackend}.AuthBackend  },
+    {
+      title: "Streaming Services in FireBase with Stripe payment System ",
+      seemorelink:"Streaming-services",
+      viewLiveDemo:'https://streaming-service-like-netflix-with-payment-intigration.vercel.app/',
+    
+      description: (
+        <>
+          <p>
+          Next level of streaming entertainment with our Netflix clone, powered by Stripe subscriptions, Firebase, TMDB API,  and Tailwind CSS.
+          it offers a seamless user experience, allowing users to sign up, subscribe, and enjoy unlimited access to a vast library of movies and TV shows. </p>
+        </>
+      ),
+      badge: "13-april,2024",
+      image:
+      {Netflix}.Netflix  },
 
 
   {
