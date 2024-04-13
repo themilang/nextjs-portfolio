@@ -81,7 +81,7 @@ export default function Social() {
               className="mt-5 w-full rounded-md bg-black py-3 px-5 text-white dark:bg-gray-600 dark:hover:bg-green-600 hover:bg-gray-200 disabled:cursor-not-allowed disabled:bg-opacity-60 md:mt-0 md:w-auto"
             >
               {!loading ? (
-                "SUBSCRIBE"
+                "Send"
               ) : (
                 <div className="flex w-full items-center justify-center ">
                   <RiLoader5Fill className="w-8 animate-spin" />
@@ -103,7 +103,7 @@ export default function Social() {
           <div className="mapouter">
             <div className="gmap_canvas">
               <iframe width="942" height="430" id="gmap_canvas" src="https://maps.google.com/maps?q=surkhet&t=&z=13&ie=UTF8&iwloc=&output=embed" />
-              <a href="https://timenowin.net/">online clock</a>
+              <a href="https://timenowin.net/">My Location</a>
               <a href="https://www.analarmclock.com/"></a>
             </div>
           </div>

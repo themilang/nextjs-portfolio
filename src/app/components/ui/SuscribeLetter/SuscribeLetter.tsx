@@ -7,12 +7,14 @@ export const Newsletter = () => {
   const [email, setEmail] = useState<any | null>(null);
 
   const [loading, setLoading] = useState(false);
+
   const [success, setSuccess] = useState<boolean>(false);
   const [messageState, setMessageState] = useState("");
 
   const handelSubmit= async (event: React.FormEvent<HTMLFormElement>)=>{
     event.preventDefault();
     console.log(email)
+    setLoading(true)
 
 
 
@@ -42,6 +44,9 @@ export const Newsletter = () => {
   } catch (error) {
       console.error('Error:', error);
   }
+  finally {
+    setLoading(false);
+  }
   
 
 
@@ -66,7 +71,7 @@ export const Newsletter = () => {
           <div className="gap-3 md:flex ">
             <input
               type="email"
-              className="peer border block w-full rounded-md border-gray-300 bg-white py-3 pl-7 pr-12 text-black focus:border-white focus:ring-white peer-invalid:text-pink-600 dark:border-zinc-500 dark:bg-zinc-900 dark:focus:ring-white sm:text-sm"
+              className="peer border block w-full rounded-md border-gray-300 bg-white py-3 pl-7 pr-12 text-white focus:border-white focus:ring-white peer-invalid:text-pink-600 dark:border-zinc-500 dark:bg-zinc-900 dark:focus:ring-white sm:text-sm"
               placeholder="Your Email"
               autoComplete="email"
               required
