@@ -1,14 +1,7 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "../ui/hero-parallax";
-import ecommerece from '../../../../public/ecompng.png'
-import elearning from '../../../../public/elarning.png'
 
-import iot from '../../../../public/Iot.png'
-import landing from '../../../../public/landing.png'
-import chatapp from '../../../../public/chat.png'
-import  userauth from '../../../../public/Auth.png'
-import payment from '../../../../public/Payment.png'
 
 
 
@@ -21,25 +14,25 @@ export const products = [
   {
     title: "Online University Management System",
     link: "https://github.com/themilang",
-    thumbnail:
-""  },
+    thumbnail:'https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fecompng.4a8ec864.png&w=2048&q=75'
+ },
   {
     title: "FullStack Elearning WebApplication",
-    link: "https://github.com/themilang",
-    thumbnail:
-""  },
+    link: "",
+    thumbnail:"https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Felarning.4c61ad12.png&w=2048&q=75"
+ },
   {
-    title: "Ecommerece",
+    title: "Netflix",
     link: "https://github.com/themilang",
     thumbnail:
-      "/../../../public/ecompng.png",
+      "https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnetflix.73ff5a61.png&w=2048&q=75",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Authentication",
+    link: "",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAuth.8ec3c686.png&w=2048&q=75",
   },
   {
     title: "Editrix AI",
@@ -48,35 +41,30 @@ export const products = [
       "https://aceternity.com/images/products/thumbnails/new/editrix.png",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    title: "IOT Raspberry Pi",
+    link: "",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FIot.563e5b67.png&w=2048&q=75",
   },
 
+  
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "Realtime Chat App",
+    link: "",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchat.26a20346.png&w=2048&q=75",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "Stripe Payment",
+    link: "",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPayment.4639b72d.png&w=2048&q=75",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Case Study",
+    link: "",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+      "https://hosting-images-dedj.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flanding.fbd1b5b4.png&w=2048&q=75",
   },
  
 
