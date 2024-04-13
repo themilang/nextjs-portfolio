@@ -5,10 +5,10 @@ import React, { useState } from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      imagelink:'https://scontent.fbwa9-1.fna.fbcdn.net/v/t39.30808-6/362611229_6842113365827825_65784770798578431_n.jpg?stp=c0.45.405.405a_cp6_dst-jpg_p180x540&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xciLexPh24oAb6m58TK&_nc_ht=scontent.fbwa9-1.fna&oh=00_AfA6bfJdg_oQUuZvo48lQfRf87sEt8dJ8uQo_-nxwQphKA&oe=66161EF3',
+      imagelink:'https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/396057173_10160779863614618_7384445089107078165_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=15QHvKUQPO0Ab6y7Bvi&_nc_ht=scontent.fbwa5-1.fna&oh=00_AfBGgRebbd0iq-Lg6o1VIqAUh4IXNhGdUvyhKN8pf5ejFQ&oe=66209178',
       name: "Er. Kapil Budhathoki",
       position: "HOD, Mid-West University",
-      text: "Working with Milan was an absolute pleasure. Their efficiency and expertise as a Full Stack Developer were truly remarkable. I was amazed by how quickly they were able to deliver high-quality solutions. Moreover, their proactive communication and attention to detail made the entire process seamless. I highly recommend Milan for any software development project."
+      text: "Working with Milan was an absolute pleasure. His efficiency and expertise as a Full Stack Developer is truly remarkable. I was amazed by how quickly he was able to deliver high-quality solutions. Moreover, his proactive communication and attention to detail made the entire process seamless. I highly recommend Milan for any software development project."
     },
     {         imagelink:'https://scontent.fbwa9-1.fna.fbcdn.net/v/t1.6435-9/50745154_2085865408146584_5030500855124590592_n.jpg?stp=c70.0.414.414a_dst-jpg_p552x414&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=52Ad3Y9U578Ab56aizY&_nc_ht=scontent.fbwa9-1.fna&oh=00_AfAO5x23PaFWjzkdkICr7L-qgg5ZgqxTZynO4DwATIjPjg&oe=6637B039',
 
