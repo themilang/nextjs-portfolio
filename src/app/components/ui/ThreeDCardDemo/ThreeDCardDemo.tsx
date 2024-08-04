@@ -23,11 +23,11 @@ export function ThreeDCardDemo() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="https://www.milanghimire.info.np/assets/profile-pic.png"
+            src="/public/hello.jpeg"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
+            alt="image"
           />
         </CardItem>
         <div className="flex justify-between items-center mt-20">

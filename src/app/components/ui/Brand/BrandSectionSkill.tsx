@@ -29,7 +29,7 @@ const Brand: React.FC = () => {
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
-              <div className=" flex flex-wrap items-center justify-center ">
+              <div className=" mt-2 flex  items-center justify-center ">
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
@@ -47,6 +47,7 @@ const Brand: React.FC = () => {
                 />
                 <SingleImage
                   href="#"
+                 
                   
                   Alt="Brand Image"
                   imgSrc="https://hub.docker.com/api/media/repos_logo/v1/library%2Fnode"

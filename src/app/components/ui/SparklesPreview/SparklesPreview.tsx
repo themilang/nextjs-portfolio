@@ -48,8 +48,11 @@ export const SparklesPreview = () => {
               <br />
               <br />
               <p className="text-gray-400 lg:ml-12 xs:ml-0 text-lg text-center md:text-left">
-                A passionate and dedicated full-stack developer with a strong <br /> foundation in software engineering. I thrive on turning ideas <br /> into reality through the power of code and innovation.
+                Open to be Hired !
               </p>
+              {/* <p className="text-gray-400 lg:ml-12 xs:ml-0 text-lg text-center md:text-left">
+                A passionate and dedicated full-stack developer with a strong <br /> foundation in software engineering. I thrive on turning ideas <br /> into reality through the power of code and innovation.
+              </p> */}
               <br />
               <div className="flex justify-center md:justify-start p-8 md:p-20">
               <Link   style={{ zIndex: 1 }} href='#contact'>
@@ -79,9 +82,9 @@ export const SparklesPreview = () => {
                     <div className="flex-row">
                       <CardItem translateZ="100" className="w-full mt-4">
                         <img
-                          src="https://scontent.fbwa9-1.fna.fbcdn.net/v/t39.30808-6/316427424_1818266161855008_4993216797239221165_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WvyFcSTfNJgAb4s0NJ_&_nc_ht=scontent.fbwa9-1.fna&oh=00_AfBwsIrwtt2qn1rGofcYDIlYJZ6QBInyI5vwOX0ER3W08w&oe=661AE0FE"
+                          src="https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/322801379_689640069288618_3388144156042723304_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fEpi126ljeUQ7kNvgEAwqIV&_nc_ht=scontent.fbwa5-1.fna&oh=00_AYDiJAH7tUM-aJPxMl0JC5o_fC867LpAqPOQiAj1fMbNpQ&oe=66B5940F"
                           className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                          alt="thumbnail"
+                          alt="image"
                         />
                       </CardItem>
                       <Brand />
